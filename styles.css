@@ -1,0 +1,43 @@
+body {
+  background-image: url('https://2.bp.blogspot.com/-JFt2osyLUHo/Uh8xgf1aNHI/AAAAAAAACTo/NABO9s3GFGs/s1600/Background-For-Website2.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh - 100px);
+  margin: 50px;
+  font-size: 16px;
+}
+
+form {
+  display: grid;
+  grid-gap: 20px;
+  align-content: center;
+}
+
+label {
+  font-size: 50px;
+  justify-self: center;
+}
+
+input {
+  justify-self: center;
+}
+
+form > div {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+form > div div {
+  display: grid;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
