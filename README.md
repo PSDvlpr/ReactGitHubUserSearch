@@ -1,1 +1,1 @@
-https://whitepete.github.io/modul-15-9/
+https://whitepete.github.io/ReactGitHubUserSearch/
